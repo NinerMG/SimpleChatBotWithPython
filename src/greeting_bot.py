@@ -27,3 +27,22 @@ class Greeting_Bot:
         for index in range(0, number + 1):
             print(f"{index} !")
         print('Completed, have a nice day!')
+
+    def test(self):
+        print("Let's test your programming knowledge.")
+        print("Why do we use methods?")
+        print("1. To repeat a statement multiple times.")
+        print("2. To decompose a program into several small subroutines.")
+        print("3. To determine the execution time of a program.")
+        print("4. To interrupt the execution of a program.")
+
+        while True:
+            answer = int(input())
+            if answer == 2:
+                self.end()
+                break;
+            else:
+                print("Please, try again.")
+
+    def end(self):
+        print('Congratulations, have a nice day!')
