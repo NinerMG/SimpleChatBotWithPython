@@ -21,3 +21,9 @@ class Greeting_Bot:
         remainder7 = int(input())
         your_age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
         print(f"Your age is {your_age}; that's a good time to start programming!")
+
+    def counting_numbers(self):
+        number = int(input('Now I will prove to you that I can count to any number you want.'))
+        for index in range(0, number + 1):
+            print(f"{index} !")
+        print('Completed, have a nice day!')
